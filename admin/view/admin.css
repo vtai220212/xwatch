@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    background-color: #ffffff;
+    font-weight: 500;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    float: left;
+    width: 100%;
+    background-color: rgb(170, 75, 107);
+    ;
+    margin-bottom: 5px;
+    padding: 20px;
+    height: 150px;
+
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.main {
+    float: left;
+    width: calc(100% - 100px);
+    padding: 0px 50px;
+    color: #000000;
+}
+
+nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+    width: 100%;
+    background: rgba(117, 112, 112, 0.79);
+    height: 322px;
+    margin-top: 338px;
+    padding: 0px 63px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .box {
+    width: 250px;
+    color: #000000;
+}
+
+.footer .box .quick-menu {
+    margin-top: 40px;
+
+}
+
+
+.footer .box .quick-menu .item {
+    margin-bottom: 12px;
+
+}
+
+#footer .box .quick-menu,
+.item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#footer .box form input {
+    width: 294px;
+    height: 42px;
+    background: transparent;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#footer .box form button {
+    background: #362f2f;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0.25);
+    width: 163px;
+    height: 38px;
+    margin-top: 29px;
+    color: #fff;
+}
+
+/* Thiết lập kiểu dáng cơ bản cho bảng và các phần tử bên trong */
+
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.data-table th {
+    background-color: #ffffff;
+}
+
+/* Thiết lập kiểu dáng cho các nút Action */
+.data-table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.data-table button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Thiết lập kiểu dáng cho form và các phần tử bên trong */
+
+form {
+    margin: 20px;
+    padding-top: 20px;
+    /* Khoảng cách từ lề ngoài của form */
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="hidden"] {
+
+    padding: 8px;
+    /* Kích thước đệm bên trong input */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các input */
+    display: block;
+
+    /* Hiển thị mỗi input trên một dòng */
+    width: 100%;
+    /* Chiều rộng của input đầy đủ theo container cha */
+    box-sizing: border-box;
+    /* Để padding và border không làm thay đổi kích thước của input */
+}
+
+input[type="submit"] {
+    background-color: #2e4359;
+    /* Màu nền cho nút submit */
+    color: white;
+    /* Màu chữ cho nút submit */
+    border: none;
+    /* Bỏ viền */
+    cursor: pointer;
+    /* Con trỏ thành hình bàn tay khi rê chuột vào nút */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Màu nền khi hover vào nút submit */
+}
+
+/* Các kiểu dáng khác như màu sắc, viền, font chữ có thể được điều chỉnh tùy theo thiết kế mong muốn */
+
+/* Thiết lập kiểu dáng cho form và các phần tử bên trong */
+
+form {
+    margin: 20px;
+    /* Khoảng cách từ lề ngoài của form */
+    font-family: Arial, sans-serif;
+    /* Font chữ mặc định cho form */
+}
+
+select,
+input[type="text"],
+input[type="file"],
+input[type="submit"] {
+    padding: 8px;
+    /* Kích thước đệm bên trong input/select */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các input/select */
+    display: block;
+    /* Hiển thị mỗi input/select trên một dòng */
+    width: 100%;
+    /* Chiều rộng của input/select đầy đủ theo container cha */
+    box-sizing: border-box;
+    /* Để padding và border không làm thay đổi kích thước của input/select */
+    border: 1px solid #ccc;
+    /* Viền cho input/select */
+    border-radius: 4px;
+    /* Bo tròn góc viền */
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    /* Màu nền cho nút submit */
+    color: white;
+    /* Màu chữ cho nút submit */
+    border: none;
+    /* Bỏ viền */
+    cursor: pointer;
+    /* Con trỏ thành hình bàn tay khi rê chuột vào nút */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Màu nền khi hover vào nút submit */
+}
+
+/* Các kiểu dáng khác như màu sắc, viền, font chữ có thể được điều chỉnh tùy theo thiết kế mong muốn */
